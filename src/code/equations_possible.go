@@ -1,4 +1,4 @@
-package code
+package main
 
 func equationsPossible(equations []string) bool {
 	equalSet := make([]int, 26)
