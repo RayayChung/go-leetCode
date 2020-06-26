@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
-type TreeNode struct {
+type TriTreeNode struct {
 	val      string
-	Children *TreeNode
+	Children *TriTreeNode
 }
 
-func NewTreeNode(val string) *TreeNode {
-	return &TreeNode{
+func NewTreeNode(val string) *TriTreeNode {
+	return &TriTreeNode{
 		val,
 		nil,
 	}
@@ -74,10 +74,4 @@ func longestCommonPrefix(strs []string) string {
 		root = root.Children
 	}
 	return result
-}
-
-func main() {
-	strs := []string{"aaa", "aa", "aaa"}
-
-	longestCommonPrefix(strs)
 }
