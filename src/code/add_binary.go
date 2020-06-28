@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strconv"
 )
 
@@ -48,9 +47,9 @@ func addBinary(a string, b string) string {
 	return result
 }
 
-func main() {
-	a := "100"
-	b := "110010"
-	val := addBinary(a, b)
-	fmt.Print(val)
-}
+//func main() {
+//	a := "100"
+//	b := "110010"
+//	val := addBinary(a, b)
+//	fmt.Print(val)
+//}
