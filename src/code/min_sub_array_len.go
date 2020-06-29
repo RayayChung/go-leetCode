@@ -47,7 +47,7 @@ func minSubArrayLen(s int, nums []int) int {
 	return min
 }
 
-func main() {
-	arrayLen := minSubArrayLen(11, []int{1, 2, 3, 4, 5})
-	fmt.Println(arrayLen)
-}
+//func main() {
+//	arrayLen := minSubArrayLen(11, []int{1, 2, 3, 4, 5})
+//	fmt.Println(arrayLen)
+//}
