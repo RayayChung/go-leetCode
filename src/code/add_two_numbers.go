@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 
 	head := &ListNode{
@@ -46,24 +42,24 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	return head.Next
 }
 
-func main() {
-	l1 := &ListNode{
-		1,
-		&ListNode{
-			8,
-			nil,
-		},
-	}
-
-	l2 := &ListNode{
-		0,
-		nil,
-	}
-
-	node := addTwoNumbers(l1, l2)
-
-	for node != nil {
-		fmt.Print(node.Val)
-		node = node.Next
-	}
-}
+//func main() {
+//	l1 := &ListNode{
+//		1,
+//		&ListNode{
+//			8,
+//			nil,
+//		},
+//	}
+//
+//	l2 := &ListNode{
+//		0,
+//		nil,
+//	}
+//
+//	node := addTwoNumbers(l1, l2)
+//
+//	for node != nil {
+//		fmt.Print(node.Val)
+//		node = node.Next
+//	}
+//}
