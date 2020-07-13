@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 func uniquePathsWithObstacles(obstacleGrid [][]int) int {
 	if len(obstacleGrid) == 0 {
 		return 0
@@ -38,8 +34,8 @@ func uniquePathsWithObstacles(obstacleGrid [][]int) int {
 	return result[row-1][column-1]
 }
 
-func main() {
-	input := [][]int{{0, 0, 0}, {0, 1, 0}, {0, 0, 0}}
-	val := uniquePathsWithObstacles(input)
-	fmt.Print(val)
-}
+//func main() {
+//	input := [][]int{{0, 0, 0}, {0, 1, 0}, {0, 0, 0}}
+//	val := uniquePathsWithObstacles(input)
+//	fmt.Print(val)
+//}
